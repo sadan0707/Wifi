@@ -4,6 +4,8 @@ import java.awt.Frame;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
 
 
 public class Formulaz {
@@ -26,9 +28,13 @@ public class Formulaz {
 		JButton wystaw = new JButton("WYSTAW");
 		wystaw.setBounds(490, 10, 100, 40);
 		wystaw.setBorder(null);
-		
-		
 		zgloszenie.add(wystaw);
+		
+		JTextField nazwa = new JTextField();
+		nazwa.setBounds(10, 10, 200, 20);
+		zgloszenie.add(nazwa);
+		
+		
 		
 		
 		
